@@ -33,5 +33,5 @@ def pricing():
 def singleBlog():
     return render_template('single-blog.html')
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
